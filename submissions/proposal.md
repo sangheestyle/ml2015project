@@ -18,8 +18,8 @@ Whether the outcome variable is continuous or categorical is unclear to us. We w
 We have 4 iterations for this project.
 
 ### Iteration 1 - 4/08/2015
-* Making simple working implementation for feature engineering, prediction model (any 
-simple one), generating results for understanding setup.
+* Making simple working implementation for feature engineering, prediction model with a regularized regression, and generating results for understanding setup. (Baseline for this project)
+* Using question length, player identity, and question id at first.
 * Setting up a github repository.
 * Turning in the first submission into Kaggle.
 
