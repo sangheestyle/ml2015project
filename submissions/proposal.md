@@ -3,7 +3,8 @@
 ## Team
 * **Member**: Sanghee Kim, Hui Soon Kim, Choong-Wan Woo
 * **Project**: Default project
-* **Purpose**: In this project, we will predict when users answer the questions based on features of questions and answering history of users. 
+* **Purpose**: In this project, we will predict when users answer the questions based on features of questions and answering history of users.
+* **Repository**: https://github.com/sangheestyle/ml2015project
 
 ## Techniques we will explore
 ### Feature engineering
@@ -20,7 +21,6 @@ We have 4 iterations for this project.
 ### Iteration 1 - 4/08/2015
 * Making simple working implementation for feature engineering, prediction model with a regularized regression, and generating results for understanding setup. (Baseline for this project)
 * Using question length, player identity, and question id at first.
-* Setting up a github repository.
 * Turning in the first submission into Kaggle.
 
 ### Iteration 2 - 4/20/2015
