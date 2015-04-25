@@ -25,7 +25,7 @@ Suggestions: adding two new features for category
 - Features: 
    - adding 'avg\_pos\_cat' and 'acc\_ratio\_cat' (cat: category)
 
-(if model 1 works)
+81.66881 (improved a little bit)
 
 #### model 2. 
 Suggestions: adding two new features + tweak elasticnet a little bit
@@ -34,8 +34,22 @@ Suggestions: adding two new features + tweak elasticnet a little bit
    - adding 'avg\_pos\_cat' and 'acc\_ratio\_cat' (cat: category)
 
 - Algorithm:
-<code>regressor = linear_model.ElasticNetCV(n_jobs=3, normalize=True, cv=8, l1_ratio = .7)</code>
+   - l1_ratio = .2 (83.26356 worse)
 
 model 3.  
+Suggestions: adding two new features + tweak elasticnet a little bit
 
+- Features: 
+   - adding 'avg\_pos\_cat' and 'acc\_ratio\_cat' (cat: category)
+
+- Algorithm:
+   - l1_ratio = .9 (81.69428 worse)
+   - 
 model 4. 
+Suggestions: adding two new features + tweak elasticnet a little bit
+
+- Features: 
+   - adding 'avg\_pos\_cat' and 'acc\_ratio\_cat' (cat: category)
+
+- Algorithm:
+   - l1_ratio = .7 (81.23193 best!!!)
