@@ -36,7 +36,7 @@ Suggestions: adding two new features + tweak elasticnet a little bit
 - Algorithm:
    - l1_ratio = .2 (83.26356 worse)
 
-model 3.  
+#### model 3.  
 Suggestions: adding two new features + tweak elasticnet a little bit
 
 - Features: 
@@ -45,7 +45,7 @@ Suggestions: adding two new features + tweak elasticnet a little bit
 - Algorithm:
    - l1_ratio = .9 (81.69428 worse)
    - 
-model 4. 
+#### model 4. 
 Suggestions: adding two new features + tweak elasticnet a little bit
 
 - Features: 
