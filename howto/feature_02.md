@@ -44,7 +44,7 @@ Suggestions: adding two new features + tweak elasticnet a little bit
 
 - Algorithm:
    - l1_ratio = .9 (81.69428 worse)
-   - 
+
 #### model 4. 
 Suggestions: adding two new features + tweak elasticnet a little bit
 
@@ -52,4 +52,4 @@ Suggestions: adding two new features + tweak elasticnet a little bit
    - adding 'avg\_pos\_cat' and 'acc\_ratio\_cat' (cat: category)
 
 - Algorithm:
-   - l1_ratio = .7 (81.23193 best!!!)
+   - **l1_ratio = .7 (81.23193 best!!!)**
