@@ -34,7 +34,7 @@ Suggestions: adding two new features + tweak elasticnet a little bit
    - adding 'avg\_pos\_cat' and 'acc\_ratio\_cat' (cat: category)
 
 - Algorithm:
-<code>regressor = linear_model.ElasticNetCV(n_jobs=3, normalize=True, cv=8, l1_ratio = .3)</code>
+<code>regressor = linear_model.ElasticNetCV(n_jobs=3, normalize=True, cv=8, l1_ratio = .7)</code>
 
 model 3.  
 
