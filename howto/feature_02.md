@@ -25,7 +25,7 @@ Suggestions: adding two new features for category
 - Features: 
    - adding 'avg\_pos\_cat' and 'acc\_ratio\_cat' (cat: category)
 
-81.66881 (improved a little bit)
+kaggle result: 81.66881 (improved a little bit)
 
 #### model 2. 
 Suggestions: adding two new features + tweak elasticnet a little bit
@@ -36,7 +36,7 @@ Suggestions: adding two new features + tweak elasticnet a little bit
 - Algorithm:
    - l1\_ratio = .2 
 
-83.26356 worse
+kaggle result: 83.26356 worse
 
 #### model 3.  
 Suggestions: adding two new features + tweak elasticnet a little bit
@@ -45,7 +45,9 @@ Suggestions: adding two new features + tweak elasticnet a little bit
    - adding 'avg\_pos\_cat' and 'acc\_ratio\_cat' (cat: category)
 
 - Algorithm:
-   - l1\_ratio = .9 (81.69428 worse)
+   - l1\_ratio = .9 
+
+kaggle result: 81.69428 worse
 
 #### model 4. 
 Suggestions: adding two new features + tweak elasticnet a little bit
@@ -56,14 +58,14 @@ Suggestions: adding two new features + tweak elasticnet a little bit
 - Algorithm:
    - l1\_ratio = .7 
 
-**81.23193 best!!!**
+**kaggle result: 81.23193 best!!!**
 
 #### model 5. 
 l1\_ratio = .6
 
-81.33149 
+kaggle result: 81.33149 
 
 #### model 5. 
 l1\_ratio = .8
 
-81.55633
+kaggle result: 81.55633
