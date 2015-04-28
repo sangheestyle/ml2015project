@@ -1,4 +1,12 @@
-from collections import UserDict, defaultdict
+# This is for compatibility between python 3 and python 2
+try:
+  from UserDict import UserDict
+  from UserDict import DictMixin
+except ImportError:
+  from collections import UserDict
+  from collections import MutableMapping as DictMixin
+
+from collections import defaultdict
 import numpy as np
 from features import get_pos
 
