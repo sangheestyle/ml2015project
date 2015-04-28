@@ -30,7 +30,10 @@ def select(data, keys):
     unwanted = data[0].keys() - keys
     for item in data:
         for unwanted_key in unwanted:
-            del item[unwanted_key]
+            try:
+                del item[unwanted_key]
+            except:
+                print("WARN: no key", unwanted_key)
     return data
 
 
