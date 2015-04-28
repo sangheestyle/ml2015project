@@ -17,9 +17,9 @@ class DictDict(UserDict):
             vals.append([self[key][sub_key] for sub_key in sub_keys])
         return np.array(vals)
 
-    def sub_append(self, sub_key, values):
-        for index, key in enumerate(self):
-            self[key][sub_key] = values[index]
+    def sub_append(self, sub_key, new_dict):
+        for key in new_dict:
+            self[key][sub_key] = new_dict[key]
 
 
 class Users(DictDict):
@@ -44,6 +44,28 @@ class Questions(DictDict):
             self[key] = bd['questions'][key]
             self[key]['ave_pos_qid'] = ave_pos_qid
             self[key]['acc_ratio_qid'] = acc_ratio_qid
+
+    def cal_ne(self):
+        for key in self:
+            try:
+                ne_tags = self[key]['ne_tags']
+                ne = list(zip(*ne_tags))[-1]
+                ne_count = len(ne)
+                ne_mean = sum(ne) / float(len(ne))
+                ne_nor_mean = ne_mean / len(self[key]['question'].split())
+                ne_median = np.median(ne)
+                ne_mod = max(set(ne), key=ne.count)
+            except:
+                ne_count = 0
+                ne_mean = 0
+                ne_nor_mean = 0
+                ne_median = 0
+                ne_mod = 0
+            self[key]['ne_count'] = ne_count
+            self[key]['ne_mean'] = ne_mean
+            self[key]['ne_nor_mean'] = ne_nor_mean
+            self[key]['ne_median'] = ne_median
+            self[key]['ne_mod'] = ne_mod
 
 
 class Categories(DictDict):
