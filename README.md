@@ -5,5 +5,8 @@ This is a class project for Machine Learning 2015. We stored all the our experim
 * [Homework assignment for this project](https://github.com/ezubaric/ml-hw/blob/master/project/assign.md)
 * [Kaggle](https://inclass.kaggle.com/c/when-they-buzz2/)
 
+## Presentations
+* [Final presentation](https://goo.gl/5Av9h0)
+
 ## Reference
 * [Scikit-learn](http://scikit-learn.org/stable/)
